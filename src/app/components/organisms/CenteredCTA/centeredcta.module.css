@@ -1,0 +1,18 @@
+.centeredcta {
+  padding: 80px 24px;
+}
+
+h2.title {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+p.mbottom {
+  margin-bottom: 40px;
+}
+
+.button {
+  display: table;
+  margin: 0 auto;
+}

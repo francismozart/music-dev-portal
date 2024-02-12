@@ -1,0 +1,26 @@
+.modules {
+  padding: 40px 0 40px 0;
+  background-color: var(--bg2, #131313);
+}
+
+h2.title {
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+p.paragraph {
+  color: var(--text-color1, #fff);
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.content {
+  padding: 0 24px;
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+  .content {
+    padding: 0;
+  }
+}

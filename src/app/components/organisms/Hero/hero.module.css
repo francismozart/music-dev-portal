@@ -1,0 +1,22 @@
+.hero {
+  padding: 116.13px 24px 116px;
+
+  background-repeat: no-repeat;
+  background-position: 62% 94%;
+}
+
+h1.mbottom {
+  margin-bottom: 20px;
+}
+
+p.mbottom {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 600px) {
+  .hero {
+    padding: 152px 0;
+    background-size: cover;
+    background-position: 20% 80%;
+  }
+}

@@ -1,0 +1,60 @@
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.embla__slide {
+  flex-grow: 0;
+  flex-shrink: 0;
+
+  width: 340px;
+  min-width: 0;
+}
+
+.embla__slide:first-child {
+  margin-left: 24px;
+}
+
+.embla__btns_wrapper {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .embla__slide {
+    flex-basis: 100%;
+    width: unset;
+    max-width: 398px;
+  }
+
+  .embla__btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .embla__btn_prev img {
+    transform: rotate(180deg);
+  }
+
+  .embla__btn_disabled {
+    pointer-events: none;
+    opacity: 0.1;
+    cursor: not-allowed;
+  }
+
+  .embla__btns_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+
+  .embla__slide:first-child {
+    margin-left: unset;
+  }
+}
