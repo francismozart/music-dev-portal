@@ -25,7 +25,7 @@ const server = http.createServer((req, res) => {
   }
 
   if (req.url.startsWith("/pages")) {
-    data = filterByLocale(payload.pages, locale);
+    data = filterByLocale(payload.pages, locale)[0];
   }
 
   res.end(JSON.stringify(data));
