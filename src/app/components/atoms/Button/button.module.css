@@ -1,0 +1,15 @@
+.button {
+  padding: 12px 24px;
+
+  color: var(--text-color1, #fff);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: none;
+
+  border-radius: var(--border-radius, 12px);
+}
+
+img.mleft {
+  margin-left: 0.5rem;
+}

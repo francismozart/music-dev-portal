@@ -1,0 +1,19 @@
+.title {
+  color: var(--text-color1, #fff);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: center;
+}
+
+h1.title {
+  line-height: 100%;
+}
+
+h2.title {
+  font-size: 32px;
+}
+
+h3.title {
+  font-size: 20px;
+}

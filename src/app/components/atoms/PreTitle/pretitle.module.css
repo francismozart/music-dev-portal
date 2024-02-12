@@ -1,0 +1,7 @@
+.pretitle {
+  color: var(--font-color4, #75a5ff);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: center;
+}

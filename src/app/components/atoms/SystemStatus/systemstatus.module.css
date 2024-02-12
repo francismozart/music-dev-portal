@@ -1,0 +1,22 @@
+p.paragraph {
+  color: var(--text-color5, rgba(255, 255, 255, 0.4));
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: left;
+}
+
+.dot {
+  border-radius: 100%;
+  background-color: var(--good-status-color, #0affa7);
+  width: 6px;
+  height: 6px;
+}
+
+p.systems {
+  color: var(--good-status-color, #0affa7);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: left;
+}

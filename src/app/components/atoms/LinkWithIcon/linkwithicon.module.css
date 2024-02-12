@@ -1,0 +1,9 @@
+.linkwithicon {
+  display: block;
+  text-decoration: none;
+  color: var(--font-color4, #75a5ff);
+}
+
+img.mleft {
+  margin-left: 0.5rem;
+}
