@@ -1,0 +1,25 @@
+.featurecard {
+  margin: 1.5rem 0;
+}
+
+h3.small {
+  font-size: 1rem;
+}
+
+p.alignleft {
+  text-align: left;
+}
+
+img.mbottom {
+  margin-bottom: 1rem;
+}
+
+h3.mbottom {
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 600px) {
+  .featurecard {
+    max-width: 380px;
+  }
+}
