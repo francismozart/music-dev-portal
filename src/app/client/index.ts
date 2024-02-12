@@ -1,4 +1,4 @@
-const SERVER_URL = "http://127.0.0.1:4000";
+const SERVER_URL = "http://localhost:4000";
 const DEFAULT_LOCALE = "en";
 
 export async function getProps(lang: string) {
