@@ -1,10 +1,24 @@
-# Arquitecture
+# Application details
+
+## Stack & Tools
+
+- React
+- TypeScript
+- NextJS
+- Node
+- Material UI
+- CSS Modules
+
+## Component Scructure
 
 - Atomic design at `app/components/` . This means:
   - `atoms/`
   - `molecules/`
   - `organisms/`
   - `templates/`
+
+## Internationalization
+
 - Slug `/` renders the website in `en` as default language
 - Language can be changed in footer menu
 - Routes /pt /en /etc will render other languages
