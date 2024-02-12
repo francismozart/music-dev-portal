@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Articulat";
+  src: url("/assets/fonts/ArticulatCF-Medium.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Articulat";
+  src: url("/assets/fonts/ArticulatCF-Normal.otf");
+  font-weight: 500;
+}
+
+:root {
+  --border-radius: 12px;
+  --border-radius2: 16px;
+  --font: "Articulat";
+  --bg1: #000;
+  --bg2: #131313;
+  --bg3: #212121;
+  --text-color1: #fff;
+  --text-color2: #858585;
+  --text-color3: #a8a8a8;
+  --text-color4: #75a5ff;
+  --text-color5: rgba(255, 255, 255, 0.4);
+  --text-color6: #969696;
+  --good-status-color: #0affa7;
+  --bg-menu: transparent;
+  --bg-menu-open: #000;
+  --outline: #75a5ff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--bg1, #000);
+  color: var(--text-color1, #fff);
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  font-family: "Articulat", helvetica, arial, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.MuiContainer-root {
+  width: 100%;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+  display: block;
+}
+
+@media (min-width: 1240px) {
+  .MuiContainer-root {
+    max-width: 1240px;
+  }
+}
